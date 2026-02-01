@@ -1,0 +1,25 @@
+.formBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.formInput {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid gray;
+}
+
+.formButton {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid gray;
+  background-color: rgb(183, 114, 247);
+  transition: all 0.11s ease;
+  cursor: pointer;
+}
+
+.formButton:hover {
+  background-color: rgb(161, 73, 243);
+}

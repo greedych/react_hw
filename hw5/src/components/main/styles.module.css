@@ -1,0 +1,49 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  text-align: center;
+  padding-top: 80px;
+  text-wrap: wrap;
+}
+
+.box > h1,
+p {
+  margin: 0;
+}
+
+.box > p {
+  font-weight: 700;
+  font-size: 1.07rem;
+  width: 80px;
+}
+
+.socialImg {
+  width: 40px;
+  height: 40px;
+  fill: #0c0417;
+}
+
+.imgBox {
+  background-color: #1ed760;
+  border-radius: 15px;
+  padding: 5px;
+  transition: all 0.1s ease-in;
+  cursor: pointer;
+}
+
+.imgBox:hover {
+  transform: translateY(-10px);
+  background-color: #1181f1;
+}
+
+.socialsBox {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  border: 2px solid #1ed760;
+  padding: 20px;
+  border-radius: 30px;
+}

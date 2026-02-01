@@ -1,0 +1,11 @@
+.formInput {
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.userForm {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  align-items: center;
+}

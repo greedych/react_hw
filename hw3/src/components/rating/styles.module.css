@@ -1,0 +1,17 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 50px;
+  margin: 0 auto;
+  gap: 10px;
+}
+
+.ratingButton {
+  border: none;
+  border-radius: 10px;
+  color: azure;
+  font-size: 1.1rem;
+  background-color: rgb(228, 169, 59);
+  padding: 10px;
+}
