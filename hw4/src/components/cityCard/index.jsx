@@ -6,7 +6,7 @@ function CityCard({ name, description, image, facts }) {
       <p>{description}</p>
       <ul>
         {facts.map((fact) => (
-          <li>{fact}</li>
+          <li key={fact}>{fact}</li>
         ))}
       </ul>
     </div>
